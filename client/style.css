@@ -1,0 +1,26 @@
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    flex:1 1 auto;
+    
+}
+
+ul li,section {
+     border: 1px solid grey;
+    border-radius: 5px;
+    
+    margin: 1rem;
+    padding: 1rem;
+    justify-content: center;
+}
+
+section span {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    display: flex;
+    padding:0.5rem;
+}
